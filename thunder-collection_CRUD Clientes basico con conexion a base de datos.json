@@ -1,0 +1,110 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "CRUD Clientes basico",
+    "dateExported": "2023-12-01T14:50:07.846Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "58e53712-21e3-46a4-8cc0-e2d0a63e142d",
+            "colId": "119679bc-88cb-4d18-be39-252774490dfa",
+            "containerId": "",
+            "name": "listar clientes",
+            "url": "localhost:5000/api/clientes",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-01-18T11:36:39.316Z",
+            "modified": "2023-12-01T14:33:45.727Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "16398590-b78a-4f73-86b0-bb5d2cf6384d",
+            "colId": "119679bc-88cb-4d18-be39-252774490dfa",
+            "containerId": "",
+            "name": "consultar cliente",
+            "url": "localhost:5000/api/clientes/3",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2023-01-18T11:38:42.088Z",
+            "modified": "2023-12-01T14:42:38.742Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "d67667e5-5d2f-4c05-8060-19c31d6b11fd",
+            "colId": "119679bc-88cb-4d18-be39-252774490dfa",
+            "containerId": "",
+            "name": "crear cliente",
+            "url": "localhost:5000/api/clientes",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2023-01-18T11:39:13.732Z",
+            "modified": "2023-12-01T14:44:28.746Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"nombre\": \"nuevo nombre\",\n    \"apellido\": \"nuevo apellido\",\n    \"email\": \"nuevo@unicauca.edu.co\",\n    \"createAt\": \"1993-03-08T20:50:20.713+00:00\"\n  }",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "90b39804-2a6c-422c-bbe7-1ba9a03a78c4",
+            "colId": "119679bc-88cb-4d18-be39-252774490dfa",
+            "containerId": "",
+            "name": "eliminar cliente",
+            "url": "localhost:5000/api/clientes/9",
+            "method": "DELETE",
+            "sortNum": 40000,
+            "created": "2023-01-18T11:41:12.881Z",
+            "modified": "2023-12-01T14:46:56.155Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "043e947f-a9df-4692-bd3b-786c1ad05674",
+            "colId": "119679bc-88cb-4d18-be39-252774490dfa",
+            "containerId": "",
+            "name": "Actualizar cliente",
+            "url": "localhost:5000/api/clientes/9",
+            "method": "PUT",
+            "sortNum": 50000,
+            "created": "2023-01-18T11:41:58.144Z",
+            "modified": "2023-12-01T14:46:33.641Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nombre\": \"Nombre actualizado\",\n  \"apellido\": \"Apellido actualizado\",\n  \"email\": \"correoActualizado@unicauca.edu.co\",\n  \"createAt\": \"2023-07-18T11:35:52.276+00:00\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "4be2b0e9-178a-4263-8f96-6084b965c763",
+            "colId": "119679bc-88cb-4d18-be39-252774490dfa",
+            "containerId": "",
+            "name": "ListarCabeceras",
+            "url": "localhost:5000/api/clientes/listarCabeceras",
+            "method": "GET",
+            "sortNum": 60000,
+            "created": "2023-01-20T20:16:48.437Z",
+            "modified": "2023-03-08T22:43:18.705Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "date",
+                    "value": "12/12/2022",
+                    "isDisabled": true,
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        }
+    ]
+}
