@@ -24,16 +24,7 @@ public class UsuarioRepositoryBaseDatos {
     public UsuarioRepositoryBaseDatos() {
         conexionABaseDeDatos = new ConexionBD();
     }
-
-    /**
-     * 
-     * @author: Daniel Eduardo Paz Perafán
-     * @version: 09/12/2020
-     * @param cliente El parámetro encapsula la información del cliente a registrar
-     *                en el sistema
-     * @return si el cliente se registro correctamente, el método retorna el cliente
-     *         con los datos registrados,null en caso contrario
-     */
+    
 
     public ClienteEntity save(ClienteEntity objCliente) {
         System.out.println("registrando cliente");
